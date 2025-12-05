@@ -7,8 +7,8 @@ server.port=8082   # Timesheet service will run on 8082, choose unique port per 
 # Database Configuration
 # ------------------------------
 spring.datasource.url=jdbc:postgresql://localhost:5432/leavedb
-spring.datasource.username=postgres   # replace with your DB username
-spring.datasource.password=shweta  # replace with your DB password
+spring.datasource.username=root   # replace with your DB username
+spring.datasource.password=Shweta  # replace with your DB password
 spring.jpa.hibernate.ddl-auto=update  # create/update tables automatically
 spring.jpa.show-sql=true
 spring.jpa.properties.hibernate.format_sql=true
